@@ -1,0 +1,4 @@
+# !/bin/bash
+
+echo "Scan udp ip: 192.168.88.56 port: 7780"
+sudo tcpdump -q  -A -i enp1s0 dst 192.168.88.56 and port 7780
